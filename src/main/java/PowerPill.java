@@ -26,7 +26,8 @@ public class PowerPill
      */
     public PowerPill(String name, int power)
     {
-        // TODO - add your code here
+        setName(name);
+        setPower(power); // TODO - add your code here
     }
 
     // accessor methods
@@ -37,7 +38,8 @@ public class PowerPill
      */
     public int getPower()
     {
-        // TODO - add your code here
+       return powerSupply; // TODO - add your code here
+
     }
 
     /*
@@ -46,7 +48,7 @@ public class PowerPill
      */
     public String getName()
     {
-        // TODO - add your code here
+       return name; // TODO - add your code here
     }
 
     // mutator methods
@@ -57,7 +59,7 @@ public class PowerPill
      */
     public void setPower(int power)
     {
-        // TODO - add your code here
+        this.powerSupply = power; // TODO - add your code here
     }
 
     /*
@@ -66,6 +68,6 @@ public class PowerPill
      */
     public void setName(String name)
     {
-        // TODO - add your code here
+       this.name = name; // TODO - add your code here
     }
 }
